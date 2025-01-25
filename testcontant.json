@@ -1,0 +1,208 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "poster": "/placeholder.svg?height=400&width=300",
+        "ageRating": "PG-13",
+        "actors": [
+          {
+            "id": 1,
+            "name": "Leonardo DiCaprio",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 2,
+            "name": "Joseph Gordon-Levitt",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 3,
+            "name": "Ellen Page",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "Christopher Nolan",
+        "rating": 8.8,
+        "duration": "2h 28min",
+        "views": 15000000,
+        "releaseYear": 2010,
+        "genre": [
+          "Action",
+          "Sci-Fi"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Dark Knight",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMtkGBfHb06Qfe-eI5WYVbzMZ18yHhdowsA&s",
+        "ageRating": "PG-13",
+        "actors": [
+          {
+            "id": 4,
+            "name": "Christian Bale",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 5,
+            "name": "Heath Ledger",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 6,
+            "name": "Aaron Eckhart",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "Christopher Nolan",
+        "rating": 9,
+        "duration": "2h 32min",
+        "views": 18000000,
+        "releaseYear": 2008,
+        "genre": [
+          "Action",
+          "Crime",
+          "Drama"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Pulp Fiction",
+        "poster": "/placeholder.svg?height=400&width=300",
+        "ageRating": "R",
+        "actors": [
+          {
+            "id": 7,
+            "name": "John Travolta",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 8,
+            "name": "Samuel L. Jackson",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 9,
+            "name": "Uma Thurman",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "Quentin Tarantino",
+        "rating": 8.9,
+        "duration": "2h 34min",
+        "views": 12000000,
+        "releaseYear": 1994,
+        "genre": [
+          "Crime",
+          "Drama"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "The Shawshank Redemption",
+        "poster": "/placeholder.svg?height=400&width=300",
+        "ageRating": "R",
+        "actors": [
+          {
+            "id": 10,
+            "name": "Tim Robbins",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 11,
+            "name": "Morgan Freeman",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "Frank Darabont",
+        "rating": 9.3,
+        "duration": "2h 22min",
+        "views": 16000000,
+        "releaseYear": 1994,
+        "genre": [
+          "Drama"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Goodfellas",
+        "poster": "/placeholder.svg?height=400&width=300",
+        "ageRating": "R",
+        "actors": [
+          {
+            "id": 12,
+            "name": "Robert De Niro",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 13,
+            "name": "Ray Liotta",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 14,
+            "name": "Joe Pesci",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "Martin Scorsese",
+        "rating": 8.7,
+        "duration": "2h 25min",
+        "views": 11000000,
+        "releaseYear": 1990,
+        "genre": [
+          "Biography",
+          "Crime",
+          "Drama"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "The Matrix",
+        "poster": "/placeholder.svg?height=400&width=300",
+        "ageRating": "R",
+        "actors": [
+          {
+            "id": 15,
+            "name": "Keanu Reeves",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 16,
+            "name": "Laurence Fishburne",
+            "image": "/placeholder.svg?height=50&width=50"
+          },
+          {
+            "id": 17,
+            "name": "Carrie-Anne Moss",
+            "image": "/placeholder.svg?height=50&width=50"
+          }
+        ],
+        "producer": "The Wachowskis",
+        "rating": 8.7,
+        "duration": "2h 16min",
+        "views": 14000000,
+        "releaseYear": 1999,
+        "genre": [
+          "Action",
+          "Sci-Fi"
+        ]
+      },
+      {
+        "id": "6807",
+        "title": "loveggg",
+        "ageRating": "PG",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODAxNTc4ODMxNV5BMl5BanBnXkFtZTcwNTA5NjYxNA@@._V1_.jpg",
+        "producer": "adam mkn",
+        "story": "kmkjbhbk;ndjqedjeuhcd';ldk;lqefkcenfjnedmwq;,d'qw;,dwqdnjkjbjnknkmknjbjbjknlm;l,mlnjbhvgvjnkml;m,klnjk",
+        "actors": [
+          {
+            "name": "qwsws",
+            "image": "https://m.media-amazon.com/images/M/MV5BODAxNTc4ODMxNV5BMl5BanBnXkFtZTcwNTA5NjYxNA@@._V1_.jpg"
+          }
+        ],
+        "duration": "3h 49min",
+        "rating": 3
+      }
+    ]
+  }
