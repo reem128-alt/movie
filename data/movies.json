@@ -1,0 +1,196 @@
+{
+  "movies": [
+    {
+      "id": "2",
+      "title": "Interceptio",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODAxNTc4ODMxNV5BMl5BanBnXkFtZTcwNTA5NjYxNA@@._V1_.jpg",
+      "ageRating": "PG-13",
+      "actors": [
+        {
+          "name": "ashley-morgan",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pvXucLdnbtOUtTc97BXBBhlf8uqnd0Wueg&s"
+        },
+        {
+          "name": "John Will Clay",
+          "image": "https://m.media-amazon.com/images/M/MV5BMjFhOTJlNGYtNmI4Yi00NDQ5LWEyM2ItMjI3ZGU5YWY5YTJiXkEyXkFqcGc@._V1_QL75_UY414_CR163,0,280,414_.jpg"
+        }
+      ],
+      "producer": "John Will Clay",
+      "rating": 8,
+      "duration": "4h 80min",
+      "views": 18000000,
+      "releaseYear": 2008,
+      "story": "When a prototype weapon is stolen from a government facility a software engineer unknowingly becomes involved when he receives the key disk needed for detonation. With no help from authorities he is forced to team up with a suspended FBI agent to stop the group of criminals from destroying a major US city."
+    },
+    {
+      "id": "3",
+      "title": "Pulp Fiction",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "ageRating": "R",
+      "actors": [
+        {
+          "name": "John Travolta",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqI6RKkG3jpirE_TsBcREi-kh-ozJmcTxdWg&s"
+        },
+        {
+          "name": "Samuel L. Jackson",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJoHpcCIWPagTobg10idKxlFCklkYBFlsHQ&s"
+        },
+        {
+          "name": "Uma Thurman",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Uma_Thurman_photographed_by_Jiyang_Chen.jpg/220px-Uma_Thurman_photographed_by_Jiyang_Chen.jpg"
+        }
+      ],
+      "producer": "Quentin Tarantino",
+      "rating": 8.9,
+      "duration": "2h 34min",
+      "views": 12000000,
+      "releaseYear": 1994,
+      "story": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+      "id": "4",
+      "title": "The Shawshank Redemption",
+      "poster": "https://thegalileo.co.za/wp-content/uploads/2023/09/The-Galileo-Open-Air-Cinema-Movie-Shawshank-Redemption-687x1030.webp",
+      "ageRating": "R",
+      "actors": [
+        {
+          "name": "Tim Robbins",
+          "image": "https://www.mediastorehouse.com/p/767/tim-robbins-actor-star-player-shawshank-21493854.jpg.webp"
+        },
+        {
+          "name": "Morgan Freeman",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_FMjpg_UX1000_.jpg"
+        }
+      ],
+      "producer": "Frank Darabont",
+      "rating": 9.3,
+      "story": "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.",
+      "duration": "2h 22min",
+      "views": 16000000,
+      "releaseYear": 1994
+    },
+    {
+      "id": "5",
+      "title": "Goodfellas",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "ageRating": "R",
+      "actors": [
+        {
+          "name": "Robert De Niro",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/1990_Venice_Film_Festival_Robert_De_Niro.jpg/330px-1990_Venice_Film_Festival_Robert_De_Niro.jpg"
+        },
+        {
+          "name": "Ray Liotta",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTz5dZKQOFxRUN2vCdP-3KNO5BNZUrvjLPw&s"
+        },
+        {
+          "name": "Joe Pesci",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEWduqRtj61u9vPWi0PZyh3Wqi6EPURFlqoQ&s"
+        }
+      ],
+      "producer": "Martin Scorsese",
+      "rating": 8.7,
+      "duration": "2h 25min",
+      "views": 11000000,
+      "releaseYear": 1990,
+      "story": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito."
+    },
+    {
+      "id": "6",
+      "title": "The Matrix",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JpAa61BgkNomeBtnOV74IKWanzABJ7Byug&s",
+      "ageRating": "R",
+      "actors": [
+        {
+          "name": "Keanu Reeves",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVeqABu7ZcEjFsNHSLNmT5ant5FEFMaAUXAg&s"
+        },
+        {
+          "name": "Laurence Fishburne",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTc0NjczNDc1MV5BMl5BanBnXkFtZTYwMDU0Mjg1._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTYxMjgwNzEwOF5BMl5BanBnXkFtZTcwNTQ0NzI5Ng@@._V1_.jpg"
+        }
+      ],
+      "producer": "The Wachowskis",
+      "rating": 8.7,
+      "duration": "2h 16min",
+      "views": 14000000,
+      "releaseYear": 2023,
+      "story": "Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life."
+    },
+    {
+      "id": "7",
+      "title": "Green Mile",
+      "ageRating": "PG",
+      "releaseYear": 1999,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+      "producer": "Frank Darabont",
+      "story": "Paul Edgecomb, the head death row guard at a prison in 1930s Louisiana, meets an inmate, John Coffey, a black man who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift.",
+      "actors": [
+        {
+          "name": "Tom Hanks",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-SYvNXVmFOcl0GlYoSXWytMpXzVRIBrI5g&s"
+        },
+        {
+          "name": "David Morse",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTgwNjUzOTE1N15BMl5BanBnXkFtZTYwNTU4NDQ0._V1_QL75_UY414_CR2,0,280,414_.jpg"
+        },
+        {
+          "name": "Michael Clarke Duncan",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTI3NDY2ODk5OV5BMl5BanBnXkFtZTYwMjQ0NzE0._V1_QL75_UY414_CR36,0,280,414_.jpg"
+        }
+      ],
+      "duration": "3h 49min",
+      "rating": 8.6,
+      "views": 18000000
+    },
+    {
+      "id": "8",
+      "title": "The Holiday",
+      "releaseYear": 2006,
+      "ageRating": "PG-13",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/6/60/Theholidayposter.jpg",
+      "producer": "adam ",
+      "story": "Amanda lives in LA and is a movie trailer editor. Iris lives in Surrey and is a journalist. The two decide to swap houses for two weeks at Christmas - both trying to forget their troubled love lives, until love finds them anyways.",
+      "actors": [
+        {
+          "name": "Jude Law",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvIXa14S7MEJjicStY_-F0Jpb7pIbIDT3IA&s"
+        },
+        {
+          "name": "Kate Winslet",
+          "image": "https://cdn.britannica.com/38/130638-050-DBCE19EE/Kate-Winslet.jpg"
+        }
+      ],
+      "duration": "2h 16min",
+      "rating": 7,
+      "views": 70000000
+    },
+    {
+      "id": "9",
+      "title": "The Hanger Game",
+      "ageRating": "PG-13",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_.jpg",
+      "producer": "Gary Ross ",
+      "story": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+      "actors": [
+        {
+          "name": "Jennifer Lawrence",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSnBMtsk7BmmLtg5BiNz_fa4Q1Na10et2Nvg&s"
+        },
+        {
+          "name": "liam Hemsworth",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7MJdq0d1gHL2zUGYoldEGUZc6dkhnjgWGRQ&s"
+        }
+      ],
+      "duration": "2h 22min",
+      "rating": 7.2,
+      "releaseYear": 2012,
+      "views": 50000000
+    }
+  ]
+}

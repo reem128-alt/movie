@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* cairo-arabic-400-normal */
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
