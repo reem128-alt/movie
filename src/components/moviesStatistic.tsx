@@ -9,7 +9,6 @@ import {
 import {
   ChartContainer,
   ChartTooltip,
-  ChartTooltipContent,
 } from "../components/ui/chart";
 import { moviesApi } from "../services/api";
 import { useQuery } from "@tanstack/react-query";
@@ -117,20 +116,16 @@ const MoviesStatistic: React.FC = () => {
                 }}
               />
               <ChartTooltip
-                content={
-                  <ChartTooltipContent className="bg-purple-950/90 border-purple-700">
-                    {(props: { payload: any; }) => {
-                      const { payload } = props;
-                      return payload && payload[0] ? (
-                        <div className="text-purple-100">
-                          <p className="font-bold">{payload[0].payload.name}</p>
-                          <p>Rating: {payload[0].payload.rating}</p>
-                          <p>Year: {payload[0].payload.year}</p>
-                        </div>
-                      ) : null;
-                    }}
-                  </ChartTooltipContent>
-                }
+                content={({ payload }) => {
+                  if (!payload || !payload[0]) return null;
+                  return (
+                    <div className="bg-purple-950/90 border-purple-700 text-purple-100">
+                      <p className="font-bold">{payload[0].payload.name}</p>
+                      <p>Rating: {payload[0].payload.rating}</p>
+                      <p>Year: {payload[0].payload.year}</p>
+                    </div>
+                  );
+                }}
               />
               <Bar
                 dataKey="rating"
@@ -189,20 +184,16 @@ const MoviesStatistic: React.FC = () => {
                 interval={0}
               />
               <ChartTooltip
-                content={
-                  <ChartTooltipContent className="bg-purple-950/90 border-purple-700">
-                    {(props: any) => {
-                      const { payload } = props;
-                      return payload && payload[0] ? (
-                        <div className="text-purple-100">
-                          <p className="font-bold">{payload[0].payload.name}</p>
-                          <p>Views: {payload[0].payload.views}M</p>
-                          <p>Year: {payload[0].payload.year}</p>
-                        </div>
-                      ) : null;
-                    }}
-                  </ChartTooltipContent>
-                }
+                content={({ payload }) => {
+                  if (!payload || !payload[0]) return null;
+                  return (
+                    <div className="bg-purple-950/90 border-purple-700 text-purple-100">
+                      <p className="font-bold">{payload[0].payload.name}</p>
+                      <p>Views: {payload[0].payload.views}M</p>
+                      <p>Year: {payload[0].payload.year}</p>
+                    </div>
+                  );
+                }}
               />
               <Bar
                 dataKey="views"
@@ -262,24 +253,20 @@ const MoviesStatistic: React.FC = () => {
                 }}
               />
               <ChartTooltip
-                content={
-                  <ChartTooltipContent className="bg-purple-950/90 border-purple-700">
-                    {(props: any) => {
-                      const { payload } = props;
-                      return payload && payload[0] ? (
-                        <div className="text-purple-100">
-                          <p className="font-bold">
-                            Year: {payload[0].payload.year}
-                          </p>
-                          <p>Movies: {payload[0].payload.count}</p>
-                          <p className="text-sm text-purple-300">
-                            Titles: {payload[0].payload.movies}
-                          </p>
-                        </div>
-                      ) : null;
-                    }}
-                  </ChartTooltipContent>
-                }
+                content={({ payload }) => {
+                  if (!payload || !payload[0]) return null;
+                  return (
+                    <div className="bg-purple-950/90 border-purple-700 text-purple-100">
+                      <p className="font-bold">
+                        Year: {payload[0].payload.year}
+                      </p>
+                      <p>Movies: {payload[0].payload.count}</p>
+                      <p className="text-sm text-purple-300">
+                        Titles: {payload[0].payload.movies}
+                      </p>
+                    </div>
+                  );
+                }}
               />
               <Line
                 type="monotone"
